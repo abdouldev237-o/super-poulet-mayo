@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Super Poulet Mayo, Cité SIC, Douala</title>
+<meta name="description" content="Super Poulet Mayo, Cité SIC, Douala. Ici, le poulet c’est plus qu’un plat, c’est une passion. Commandez directement sur WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<script>function fb(i){if(i.dataset.fb&&!i.dataset.d){i.dataset.d=1;i.src=i.dataset.fb}else i.style.display='none'}</script>
+<style>
+:root{--bg:#150b05;--card:#26150b;--line:rgba(255,201,92,.16);--gold:#ffc95c;--amber:#f5a623;--chili:#e8452f;--cream:#fff6e8;--mut:#c3b09b;--r:20px;--e:cubic-bezier(.2,.75,.25,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--cream);font:400 16px/1.6 Outfit,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+svg.lucide{width:1.2em;height:1.2em;stroke-width:1.9;flex:none}
+.wa{width:1.25em;height:1.25em;fill:currentColor;flex:none}
+h1,h2,h3{font-family:Fraunces,serif;line-height:1.1;letter-spacing:-.02em}
+h2{font-size:clamp(30px,4.4vw,50px);font-weight:800}
+h2 em{font-style:normal;color:var(--gold)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(18px,4vw,48px)}
+section{padding:clamp(60px,8vw,104px) 0;scroll-margin-top:70px}
+.eyebrow{display:flex;align-items:center;gap:10px;color:var(--gold);font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;margin-bottom:14px}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--gold)}
+.lead{color:var(--mut);max-width:56ch;margin-top:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 26px;border-radius:99px;font-weight:600;font-size:15px;transition:transform .3s var(--e),border-color .3s,color .3s}
+.btn:hover{transform:translateY(-3px)}
+.btn-p{color:#201005;background:linear-gradient(135deg,#ffd980,var(--amber));box-shadow:0 12px 28px rgba(245,166,35,.3)}
+.btn-g{border:1px solid rgba(255,201,92,.4);background:rgba(255,255,255,.05)}
+.btn-g:hover{border-color:var(--gold);color:var(--gold)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+/* header */
+header{position:fixed;inset:0 0 auto;z-index:60}
+header::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(21,11,5,.88);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line);opacity:0;transition:opacity .3s}
+header.s::before{opacity:1}
+.bar{display:flex;align-items:center;gap:20px;height:74px}
+.logo{display:flex;align-items:center;gap:11px;font:800 18px/1.1 Fraunces,serif}
+.logo small{display:block;margin-top:3px;font:500 10px Outfit,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.mk{width:42px;height:42px;display:grid;place-items:center;font-size:21px;border-radius:13px;background:linear-gradient(140deg,var(--gold),var(--amber) 45%,var(--chili))}
+.links{display:flex;gap:4px;margin:0 auto}
+.links>a{padding:9px 15px;border-radius:99px;font-size:14.5px;font-weight:500;color:#e3d3bf;transition:.3s}
+.links>a:hover{background:rgba(255,201,92,.1);color:var(--gold)}
+.burger,.st,.sf,.ov{display:none}
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;padding:110px 0 80px;overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 50%;animation:zoom 18s ease-out both}
+@keyframes zoom{from{transform:scale(1.12)}}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(21,11,5,.97) 8%,rgba(21,11,5,.72) 50%,rgba(21,11,5,.2)),linear-gradient(0deg,var(--bg),transparent 30%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.pill{display:inline-flex;align-items:center;gap:9px;padding:8px 16px;border-radius:99px;border:1px solid rgba(255,201,92,.3);background:rgba(255,201,92,.08);color:var(--gold);font-size:13px;font-weight:500}
+.dot{width:8px;height:8px;border-radius:50%;background:#4ade80;animation:live 2.2s infinite}
+@keyframes live{0%{box-shadow:0 0 0 0 rgba(74,222,128,.7)}70%,100%{box-shadow:0 0 0 9px transparent}}
+.hero h1{font-size:clamp(48px,9vw,104px);font-weight:800;margin-top:22px;letter-spacing:-.035em}
+.hero h1 span{display:block;background:linear-gradient(100deg,#ffd980,var(--amber) 40%,var(--chili));-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{font:italic 600 clamp(17px,2.2vw,22px)/1.45 Fraunces,serif;color:#ecdcc6;margin-top:22px;max-width:30ch;padding-left:16px;border-left:3px solid var(--chili)}
+.acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.facts{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:44px;color:#d9c8b3;font-size:14px}
+.facts span{display:flex;align-items:center;gap:9px}
+.facts svg,.feat svg,.list svg,.info svg{color:var(--gold)}
+/* features */
+.feat{padding:0;margin-top:-36px;position:relative;z-index:3}
+.feat .wrap>div{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+.feat article{display:flex;gap:14px;align-items:center;padding:22px;background:#1d1007}
+.feat svg{width:30px;height:30px}
+.feat b{display:block;font-size:15px}
+.feat small{color:var(--mut);font-size:13px}
+/* menu */
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 34px}
+.tabs button{padding:10px 20px;border-radius:99px;border:1px solid var(--line);color:var(--mut);font-weight:500;transition:.3s}
+.tabs button:hover,.tabs .on{background:var(--gold);border-color:var(--gold);color:#201005}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:22px}
+.dish{background:linear-gradient(170deg,var(--card),#1c0f06);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:transform .4s var(--e),border-color .4s}
+.dish:hover{transform:translateY(-7px);border-color:rgba(255,201,92,.4)}
+.pic{position:relative;aspect-ratio:4/3;overflow:hidden;background:#2a180c}
+.pic img,.ph img,.gal img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--e)}
+.dish:hover img{transform:scale(1.08)}
+.price{position:absolute;top:12px;right:12px;z-index:2;padding:6px 13px;border-radius:99px;font-size:13px;font-weight:700;color:#201005;background:linear-gradient(135deg,#ffd980,var(--amber))}
+.dish>div:last-child{padding:18px 20px 22px}
+.dish h3{font-size:20px}
+.dish p{color:var(--mut);font-size:14px;margin:6px 0 14px}
+.ord{display:inline-flex;align-items:center;gap:8px;color:var(--gold);font-weight:600;font-size:14px;transition:gap .3s}
+.ord:hover{gap:13px}
+/* about + contact layout */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:center}
+.top{align-items:start;margin-top:36px}
+.ph{aspect-ratio:4/5;border-radius:var(--r);overflow:hidden;border:1px solid rgba(255,201,92,.3);background:#2a180c;box-shadow:0 30px 70px rgba(0,0,0,.5)}
+.list{display:grid;gap:14px;margin-top:28px}
+.list>div{display:flex;gap:14px;padding:16px 18px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.025)}
+.list svg{width:26px;height:26px;margin-top:2px}
+.list p{color:var(--mut);font-size:14px}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:clamp(130px,17vw,210px);gap:12px;margin-top:36px}
+.gal>div{border-radius:16px;overflow:hidden;background:#2a180c;border:1px solid var(--line)}
+.gal>div:hover img{transform:scale(1.1)}
+.gal .t{grid-row:span 2}
+.gal .w{grid-column:span 2}
+/* reviews */
+.revs{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px;margin-top:36px}
+.rev{padding:26px;border-radius:var(--r);border:1px solid var(--line);background:linear-gradient(170deg,var(--card),#1c0f06)}
+.stars{display:flex;gap:3px;color:var(--gold);margin-bottom:12px}
+.stars svg{fill:currentColor}
+.rev p{color:#e2d2bf;font-size:15px}
+.who{display:flex;align-items:center;gap:12px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line);font-size:14px}
+.who small{display:block;color:var(--mut)}
+.av{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font:700 15px Fraunces,serif;color:#201005;background:linear-gradient(135deg,#ffd980,var(--amber))}
+/* cta + contact */
+.cta{text-align:center;border-radius:28px;padding:clamp(40px,6vw,72px) 24px;border:1px solid rgba(255,201,92,.3);background:radial-gradient(600px 260px at 50% 0,rgba(255,201,92,.2),transparent 70%),linear-gradient(150deg,#33190a,#1b0d04)}
+.cta .lead{margin:14px auto 0}
+.cta .acts{justify-content:center}
+.info{display:grid;gap:12px}
+.info a{display:flex;align-items:center;gap:15px;padding:15px 18px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.025);transition:.3s;word-break:break-word}
+.info a:hover{border-color:rgba(255,201,92,.4);transform:translateX(5px)}
+.info svg{width:22px;height:22px}
+.info small{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--mut)}
+.hours{padding:28px;border-radius:var(--r);border:1px solid rgba(255,201,92,.3);background:linear-gradient(165deg,#2b170b,#180c04)}
+.hours h3{font-size:22px;margin-bottom:10px}
+.hours p{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px dashed var(--line)}
+.hours p span{color:var(--mut)}
+.hours p b{color:var(--gold);font-weight:600}
+.open{display:inline-flex;align-items:center;gap:9px;margin-top:18px;padding:8px 15px;border-radius:99px;font-size:13px;font-weight:600;color:#4ade80;background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.3)}
+.open.no{color:#ff8a76;background:rgba(232,69,47,.1);border-color:rgba(232,69,47,.35)}
+.open.no .dot{background:#ff8a76;animation:none}
+.map{margin-top:20px;height:230px;border-radius:16px;overflow:hidden;border:1px solid var(--line)}
+.map iframe{width:100%;height:100%;border:0;filter:grayscale(.3) invert(.9) hue-rotate(180deg)}
+footer{border-top:1px solid var(--line);padding:38px 0;background:rgba(13,7,2,.6)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px 30px;align-items:center;justify-content:space-between}
+footer nav{display:flex;flex-wrap:wrap;gap:20px;color:var(--mut);font-size:14px}
+footer nav a:hover{color:var(--gold)}
+footer small{color:var(--mut);opacity:.7}
+.fab{position:fixed;right:18px;bottom:18px;z-index:55;width:58px;height:58px;display:grid;place-items:center;border-radius:50%;color:#0f1a0c;background:linear-gradient(140deg,#8ff07a,#25d366);box-shadow:0 14px 34px rgba(37,211,102,.4);transition:transform .3s var(--e)}
+.fab:hover{transform:scale(1.08) rotate(-6deg)}
+.fab .wa{width:30px;height:30px}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s var(--e),transform .8s var(--e)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+@media(max-width:900px){
+ .two{grid-template-columns:1fr}
+ .ph{max-width:420px}
+ .gal{grid-template-columns:repeat(2,1fr)}
+ .cta-h{display:none}
+ .burger{display:grid;place-items:center;width:46px;height:46px;margin-left:auto;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.05)}
+ .links{position:fixed;inset:0 auto 0 0;width:min(84vw,300px);flex-direction:column;gap:4px;margin:0;padding:22px 18px;background:linear-gradient(180deg,#27140a,#110803);border-right:1px solid var(--line);transform:translateX(-102%);transition:transform .45s var(--e);z-index:2;overflow-y:auto}
+ .links.open{transform:none;box-shadow:0 0 60px rgba(0,0,0,.7)}
+ .links>a{padding:13px 14px;border-radius:14px;font-size:16px}
+ .st{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+ .sf{display:flex;flex-direction:column;gap:12px;margin-top:auto;padding-top:22px;color:var(--mut);font-size:14px}
+ .sf a:not(.btn){display:flex;align-items:center;gap:10px}
+ .ov{display:block;position:fixed;inset:0;z-index:1;background:rgba(8,4,1,.65);opacity:0;visibility:hidden;transition:.4s}
+ .ov.show{opacity:1;visibility:visible}
+ .hero{min-height:auto;padding-top:120px}
+ .hero::before{background:linear-gradient(0deg,var(--bg) 4%,rgba(21,11,5,.8) 48%,rgba(21,11,5,.55))}
+}
+@media(max-width:560px){.acts .btn{flex:1 1 100%}.gal .w{grid-column:span 2}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="wa" viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.97L2 22l5.25-1.38a9.86 9.86 0 0 0 4.79 1.22c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm4.52 13.97c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.86.85-.86 2.06 0 1.22.89 2.39 1.01 2.56.12.16 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></symbol></svg>
+
+<header id="top"><div class="wrap bar">
+  <a href="#accueil" class="logo"><b class="mk">🍗</b><span>Super Poulet Mayo<small>Cité SIC · Douala</small></span></a>
+  <div class="ov" id="ov"></div>
+  <nav class="links" id="nav" aria-label="Navigation principale">
+    <div class="st"><a href="#accueil" class="logo"><b class="mk">🍗</b><span>Super Poulet Mayo</span></a><button id="cl" aria-label="Fermer le menu"><i data-lucide="x"></i></button></div>
+    <a href="#menu">Menu</a><a href="#apropos">Notre histoire</a><a href="#galerie">Galerie</a><a href="#avis">Avis</a><a href="#contact">Contact</a>
+    <div class="sf">
+      <a class="btn btn-p" data-wa href="https://wa.me/237680378986"><svg class="wa"><use href="#wa"/></svg>Commander</a>
+      <a href="tel:+237693050815"><i data-lucide="phone"></i>6 93 05 08 15</a>
+      <a href="#contact"><i data-lucide="clock"></i>Ouvert tous les jours, 11h à 22h</a>
+    </div>
+  </nav>
+  <a class="btn btn-p cta-h" data-wa href="https://wa.me/237680378986"><svg class="wa"><use href="#wa"/></svg>Commander</a>
+  <button class="burger" id="bg" aria-label="Ouvrir le menu"><i data-lucide="menu"></i></button>
+</div></header>
+
+<main>
+<section class="hero" id="accueil">
+  <img src="https://images.unsplash.com/photo-1696265498747-efc4c0dd7b98?auto=format&fit=crop&w=1600&q=75" data-fb="image_1.png" onerror="fb(this)" alt="Poulet frit et bol de mayonnaise" fetchpriority="high">
+  <div class="wrap">
+    <div class="pill"><span class="dot"></span>Cité SIC · Douala, Cameroun</div>
+    <h1>Super <span>Poulet Mayo</span></h1>
+    <p class="tag">« Ici, le poulet c’est plus qu’un plat, c’est une passion. »</p>
+    <div class="acts">
+      <a class="btn btn-p" data-wa href="https://wa.me/237680378986"><svg class="wa"><use href="#wa"/></svg>Commander sur WhatsApp</a>
+      <a class="btn btn-g" href="#menu">Découvrir le menu</a>
+    </div>
+    <div class="facts"><span><i data-lucide="flame"></i>Braisé au feu de bois</span><span><i data-lucide="clock"></i>Ouvert 7j/7, dès 11h</span><span><i data-lucide="truck"></i>Livraison à Cité SIC et alentours</span></div>
+  </div>
+</section>
+
+<section class="feat"><div class="wrap rv"><div>
+  <article><i data-lucide="flame"></i><span><b>Braisé au feu de bois</b><small>Moelleux dedans, croustillant dehors</small></span></article>
+  <article><i data-lucide="chef-hat"></i><span><b>Mayo maison</b><small>Préparée chaque matin</small></span></article>
+  <article><i data-lucide="timer"></i><span><b>Prêt en 15 min</b><small>Cuisiné à la commande</small></span></article>
+  <article><i data-lucide="leaf"></i><span><b>Frais du jour</b><small>Jamais de poulet réchauffé</small></span></article>
+</div></div></section>
+
+<section id="menu"><div class="wrap">
+  <div class="eyebrow rv">Notre carte</div>
+  <h2 class="rv">Des plats <em>généreux</em>, faits pour être partagés.</h2>
+  <p class="lead rv">Chaque assiette est préparée à la commande avec du poulet frais, notre mayo maison et des accompagnements qui font la différence.</p>
+  <div class="tabs" id="tabs"><button class="on" data-f="*">Tout</button><button data-f="poulet">Poulets</button><button data-f="cote">Accompagnements</button><button data-f="menu">Menus</button></div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section id="apropos"><div class="wrap two">
+  <div class="ph rv" id="ab"></div>
+  <div>
+    <div class="eyebrow rv">Notre histoire</div>
+    <h2 class="rv">Le poulet, <em>une passion</em> depuis le premier jour.</h2>
+    <p class="lead rv">Super Poulet Mayo est né à Cité SIC, Douala, d’une idée simple : servir un poulet tellement bon qu’on en parle encore le lendemain. Notre mayo est préparée chaque matin, notre poulet est mariné à la main et braisé au feu de bois.</p>
+    <div class="list rv">
+      <div><i data-lucide="flame"></i><span><b>Braisé au feu de bois</b><p>Une cuisson lente qui garde le poulet moelleux à l’intérieur, croustillant à l’extérieur.</p></span></div>
+      <div><i data-lucide="chef-hat"></i><span><b>Mayo maison, chaque matin</b><p>Notre sauce signature, préparée sur place avec des ingrédients frais. Jamais industrielle.</p></span></div>
+      <div><i data-lucide="truck"></i><span><b>Commande directe sur WhatsApp</b><p>Pas d’intermédiaire. Vous écrivez, on prépare, vous êtes livré à Cité SIC et alentours.</p></span></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="galerie"><div class="wrap">
+  <div class="eyebrow rv">Galerie</div>
+  <h2 class="rv">L’ambiance <em>Super Poulet Mayo</em>.</h2>
+  <div class="gal rv" id="gal"></div>
+</div></section>
+
+<section id="avis"><div class="wrap">
+  <div class="eyebrow rv">Avis clients</div>
+  <h2 class="rv">Ils en parlent <em>encore</em>.</h2>
+  <div class="revs rv" id="revs"></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap"><div class="cta rv">
+  <div class="eyebrow" style="justify-content:center">Faim maintenant ?</div>
+  <h2>Commandez en <em>30 secondes</em>.</h2>
+  <p class="lead">Un message WhatsApp suffit. On confirme, on prépare, on livre.</p>
+  <div class="acts">
+    <a class="btn btn-p" data-wa href="https://wa.me/237680378986"><svg class="wa"><use href="#wa"/></svg>Écrire sur WhatsApp</a>
+    <a class="btn btn-g" href="tel:+237693050815"><i data-lucide="phone"></i>Appeler : 6 93 05 08 15</a>
+  </div>
+</div></div></section>
+
+<section id="contact"><div class="wrap">
+  <div class="eyebrow rv">Nous trouver</div>
+  <h2 class="rv">Venez, on vous <em>attend</em>.</h2>
+  <div class="two top">
+    <div class="info rv">
+      <a href="https://maps.google.com/?q=Cite+SIC+Douala+Cameroun" target="_blank" rel="noopener"><i data-lucide="map-pin"></i><span><small>Adresse</small>Cité SIC, Douala, Cameroun</span></a>
+      <a href="tel:+237693050815"><i data-lucide="phone"></i><span><small>Téléphone</small>6 93 05 08 15</span></a>
+      <a data-wa href="https://wa.me/237680378986"><svg class="wa" style="color:var(--gold)"><use href="#wa"/></svg><span><small>Commande WhatsApp</small>+237 680 37 89 86</span></a>
+      <a href="mailto:superpouletmayo6@gmail.com"><i data-lucide="mail"></i><span><small>Email</small>superpouletmayo6@gmail.com</span></a>
+      <a href="https://web.facebook.com/profile.php?id=61581106921611" target="_blank" rel="noopener"><i data-lucide="facebook"></i><span><small>Facebook</small>Super Poulet Mayo</span></a>
+    </div>
+    <div class="hours rv">
+      <h3>Horaires d’ouverture</h3>
+      <p><span>Lundi à vendredi</span><b>11h00 – 22h00</b></p>
+      <p><span>Samedi</span><b>11h00 – 23h00</b></p>
+      <p><span>Dimanche</span><b>12h00 – 21h00</b></p>
+      <div class="open" id="open"><span class="dot"></span><span>Ouvert</span></div>
+      <div class="map"><iframe title="Carte de Cité SIC, Douala" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Cite+SIC+Douala+Cameroun&output=embed"></iframe></div>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <a href="#accueil" class="logo"><b class="mk">🍗</b><span>Super Poulet Mayo<small>Cité SIC · Douala</small></span></a>
+  <nav aria-label="Pied de page"><a href="#menu">Menu</a><a href="#apropos">Notre histoire</a><a href="#galerie">Galerie</a><a href="#avis">Avis</a><a href="#contact">Contact</a></nav>
+  <small>© <span id="yr"></span> Super Poulet Mayo</small>
+</div></footer>
+
+<a class="fab" data-wa href="https://wa.me/237680378986" aria-label="Commander sur WhatsApp"><svg class="wa"><use href="#wa"/></svg></a>
+
+<script src="https://unpkg.com/lucide@0.263.1/dist/umd/lucide.min.js"></script>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const WA='https://wa.me/237680378986?text=',f=n=>n.toLocaleString('fr-FR')+' FCFA';
+const say=d=>encodeURIComponent('Bonjour Super Poulet Mayo 🍗, '+(d?'je voudrais commander : '+d+'.':'je souhaite passer une commande.'));
+const U=id=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=900&q=75`;
+const P=id=>`https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=900`;
+/* Free photos (Unsplash and Pexels licenses). If one fails to load, the client's own image_N.png is used instead. */
+const I={mayo:[U('1696265498747-efc4c0dd7b98'),'Poulet frit et bol de mayonnaise'],grill:[U('1601625618329-caea6f7d6fd6'),'Viande grillée sur un barbecue au charbon'],
+ salad:[P(17568011),'Poulet frit, frites et salade'],sauce:[P(9061486),'Poulet croustillant et frites avec sauce'],tenders:[P(14715949),'Tenders de poulet croustillants avec sauce'],
+ chips:[P(14994655),'Poulet et frites dans une assiette'],neon:[P(2233370),'Poulet croustillant et frites'],tray:[P(9975765),'Burger de poulet croustillant et frites sur un plateau']};
+const im=(k,n)=>`<img src="${I[k][0]}" alt="${I[k][1]}" data-fb="image_${n}.png" loading="lazy" onerror="fb(this)">`;
+
+const D=[['Poulet Mayo Classique',3500,'poulet','Poulet braisé, mayo maison, frites dorées et salade fraîche.','salad',2],
+ ['Poulet Mayo XXL',5500,'poulet','Double portion de poulet, double mayo, double plaisir.','sauce',3],
+ ['Poulet Mayo Épicé',4000,'poulet','Notre mayo relevée au piment douala. Pour les vrais.','tenders',4],
+ ['Poulet Braisé Nature',3000,'poulet','Mariné aux épices locales, braisé lentement au feu de bois.','grill',5],
+ ['Frites de Patate',1000,'cote','Patates douces locales, croustillantes et légèrement salées.','chips',6],
+ ['Menu Duo',6500,'menu','2 poulets mayo, 2 boissons, 1 grande frites. À partager.','neon',7]];
+$('#grid').innerHTML=D.map(([n,p,c,d,k,i])=>`<article class="dish" data-c="${c}"><div class="pic"><span class="price">${f(p)}</span>${im(k,i)}</div><div><h3>${n}</h3><p>${d}</p><a class="ord" target="_blank" rel="noopener" href="${WA}${say(n+' ('+f(p)+')')}">Commander <i data-lucide="arrow-right"></i></a></div></article>`).join('');
+$('#tabs').onclick=e=>{const b=e.target.closest('button');if(!b)return;$$('#tabs button').forEach(x=>x.classList.toggle('on',x===b));$$('.dish').forEach(d=>d.hidden=b.dataset.f!='*'&&d.dataset.c!=b.dataset.f)};
+$('#ab').innerHTML=im('grill',8);
+$('#gal').innerHTML=[['mayo','t',9],['tray','w',10],['neon','',11],['tenders','',12],['grill','w',13]].map(([k,c,n])=>`<div class="${c}">${im(k,n)}</div>`).join('');
+$('#revs').innerHTML=[['Nadège M.','Douala, cliente régulière','Le meilleur poulet mayo de Cité SIC, sans exagérer. La mayo maison change vraiment tout.'],
+ ['Yannick T.','Douala, livraison','Commande passée sur WhatsApp, livré chaud en 20 minutes. Le XXL est énorme. Franchement top.'],
+ ['Aïcha B.','Douala, Cité SIC','La version épicée est parfaite. On sent que le poulet est frais, pas réchauffé. Je recommande.']]
+ .map(([n,w,t])=>`<article class="rev"><div class="stars">${'<i data-lucide="star"></i>'.repeat(5)}</div><p>« ${t} »</p><div class="who"><div class="av">${n[0]}</div><span><b>${n}</b><small>${w}</small></span></div></article>`).join('');
+$$('[data-wa]').forEach(a=>{a.href=WA+say('');a.target='_blank';a.rel='noopener'});
+$('#yr').textContent=new Date().getFullYear();
+window.lucide&&lucide.createIcons();
+
+/* mobile sidebar */
+const nav=$('#nav'),ov=$('#ov'),set=o=>{nav.classList.toggle('open',o);ov.classList.toggle('show',o);document.body.style.overflow=o?'hidden':''};
+$('#bg').onclick=()=>set(true);ov.onclick=$('#cl').onclick=()=>set(false);
+$$('#nav a').forEach(a=>a.addEventListener('click',()=>set(false)));
+addEventListener('keydown',e=>e.key==='Escape'&&set(false));
+addEventListener('scroll',()=>$('#top').classList.toggle('s',scrollY>40),{passive:true});
+
+/* open now (Douala time) */
+(()=>{const H=[[12,21],[11,22],[11,22],[11,22],[11,22],[11,22],[11,23]],t=new Date(new Date().toLocaleString('en-US',{timeZone:'Africa/Douala'})),
+ h=t.getHours()+t.getMinutes()/60,[a,b]=H[t.getDay()],o=h>=a&&h<b,e=$('#open');e.classList.toggle('no',!o);e.lastChild.textContent=o?'Ouvert maintenant':'Fermé pour le moment'})();
+
+/* reveal on scroll */
+const io=new IntersectionObserver((es,ob)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');ob.unobserve(e.target)}}),{threshold:.1});
+$$('.rv').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
